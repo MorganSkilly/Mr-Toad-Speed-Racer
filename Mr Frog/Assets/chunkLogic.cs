@@ -45,7 +45,7 @@ public class chunkLogic : MonoBehaviour
                 if (rng % 5 == 0)
                 {
                     rng = Random.Range(0, spawnableObjects.Count);
-                    Instantiate(spawnableObjects[rng], spawnPoints[Random.Range(0, spawnPoints.Count)].transform);
+                    Instantiate(spawnableObjects[rng], spawnPoints[Random.Range(0, spawnPoints.Count)].transform.position, spawnPoints[Random.Range(0, spawnPoints.Count)].transform.rotation, null);
                 }
             }
 

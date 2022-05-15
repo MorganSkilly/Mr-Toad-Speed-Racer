@@ -778,7 +778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74483714bbf784b45b0c9c7c76035dd8, type: 3}
   m_Name: Fog
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
@@ -790,22 +790,22 @@ MonoBehaviour:
     value: 3
   globalDensity:
     overrideState: 1
-    value: 0.339
+    value: 0.2
   fogStartDistance:
     overrideState: 1
-    value: 328.6
+    value: -182.2
   fogEndDistance:
     overrideState: 0
     value: 600
   colorSource:
     overrideState: 1
-    value: 2
+    value: 0
   skyboxMipLevel:
     overrideState: 0
     value: 0
   fogColor:
     overrideState: 1
-    value: {r: 1, g: 1, b: 1, a: 0.22745098}
+    value: {r: 0.3479886, g: 0.48565164, b: 0.6415094, a: 0.22745098}
   fogColorGradient:
     overrideState: 0
     value: {fileID: 0}
@@ -826,10 +826,10 @@ MonoBehaviour:
     overrideState: 0
     value: 1
   skyboxInfluence:
-    overrideState: 1
-    value: 0.335
-  enableDirectionalLight:
     overrideState: 0
+    value: 1
+  enableDirectionalLight:
+    overrideState: 1
     value: 1
   useLightDirection:
     overrideState: 0
@@ -857,7 +857,7 @@ MonoBehaviour:
     value: 25.01
   heightDensity:
     overrideState: 1
-    value: 0.133
+    value: 0.202
   heightFogNoise:
     overrideState: 0
     value: 0

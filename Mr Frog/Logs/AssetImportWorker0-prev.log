@@ -1,0 +1,532 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16291 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/morga/Documents/GitHub/MrToadSpeedRacer/Mr Frog
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59378
+Successfully changed project path to: C:/Users/morga/Documents/GitHub/MrToadSpeedRacer/Mr Frog
+C:/Users/morga/Documents/GitHub/MrToadSpeedRacer/Mr Frog
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 114.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/morga/Documents/GitHub/MrToadSpeedRacer/Mr Frog/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8171 MB
+    Driver:   30.0.13023.4001
+Shader 'Custom/EVP Particles Alpha Blended Shadows': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005657 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 123.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Domain Reload Profiling:
+	ReloadAssembly (693ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (524ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005460 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1210ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (877ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/EVP Particles Alpha Blended Shadows': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4166 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.4 MB). Loaded Objects now: 4747.
+Memory consumption went from 198.1 MB to 196.7 MB.
+Total: 4.055000 ms (FindLiveObjects: 0.391500 ms CreateObjectMapping: 0.120000 ms MarkObjects: 3.062400 ms  DeleteObjects: 0.479700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Custom/EVP Particles Alpha Blended Shadows': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 4747.
+Memory consumption went from 106.0 MB to 104.6 MB.
+Total: 3.473500 ms (FindLiveObjects: 0.389400 ms CreateObjectMapping: 0.116300 ms MarkObjects: 2.597100 ms  DeleteObjects: 0.370100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006620 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (927ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Custom/EVP Particles Alpha Blended Shadows': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 4750.
+Memory consumption went from 186.4 MB to 185.1 MB.
+Total: 3.358300 ms (FindLiveObjects: 0.353500 ms CreateObjectMapping: 0.104200 ms MarkObjects: 2.516900 ms  DeleteObjects: 0.383000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007230 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Domain Reload Profiling:
+	ReloadAssembly (944ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Custom/EVP Particles Alpha Blended Shadows': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 4753.
+Memory consumption went from 186.4 MB to 185.0 MB.
+Total: 3.266000 ms (FindLiveObjects: 0.324000 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.439200 ms  DeleteObjects: 0.395600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006323 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Custom/EVP Particles Alpha Blended Shadows': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 4756.
+Memory consumption went from 186.4 MB to 185.0 MB.
+Total: 3.420300 ms (FindLiveObjects: 0.366600 ms CreateObjectMapping: 0.104700 ms MarkObjects: 2.470500 ms  DeleteObjects: 0.476700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 167305.689732 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Demos/Additional Content/Nicer Skybox.mat
+  artifactKey: Guid(6cad9ec4184584679877f38a523cd08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Demos/Additional Content/Nicer Skybox.mat using Guid(6cad9ec4184584679877f38a523cd08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23335fe5f87d66c6530a3f0558c374f5') in 0.119201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.560225 seconds.
+  path: Assets/SC Post Effects/Runtime/Fog/RenderScreenSpaceSkybox.cs
+  artifactKey: Guid(a07bcab63a51f604fa3470f0c70bdd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SC Post Effects/Runtime/Fog/RenderScreenSpaceSkybox.cs using Guid(a07bcab63a51f604fa3470f0c70bdd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a640ad34750d8eacf812426d123a3b') in 0.012481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.823632 seconds.
+  path: Assets/SC Post Effects/Runtime/Fog/Fog.hlsl
+  artifactKey: Guid(a66e4b0e5c776404e9a091531ccac3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SC Post Effects/Runtime/Fog/Fog.hlsl using Guid(a66e4b0e5c776404e9a091531ccac3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09af1ae50deecb2335be8f11db75b2fe') in 0.017395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.592795 seconds.
+  path: Assets/Toon Racing/Models/Materials/Monster_Truck_11B_D.mat
+  artifactKey: Guid(f660635382fb6483bb671e3c40965827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Monster_Truck_11B_D.mat using Guid(f660635382fb6483bb671e3c40965827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bbfa55a238e6bf34726587d0cba480') in 0.026911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Racing/Models/Materials/Monster_Truck_12B_D.mat
+  artifactKey: Guid(06ab9090651a546a9937049b632bfd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Racing/Models/Materials/Monster_Truck_12B_D.mat using Guid(06ab9090651a546a9937049b632bfd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7f06643acb6b720d348add45b81ed8') in 0.040263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.997905 seconds.
+  path: Assets/EVP5/random mats/New Material 8.mat
+  artifactKey: Guid(69ee6a377a342574da190bf765bccf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EVP5/random mats/New Material 8.mat using Guid(69ee6a377a342574da190bf765bccf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653afd1682e5cf4f945e9b53c51c939b') in 0.042279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036100 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak medium/Billboard/Oak medium BillboardMaterial.mat
+  artifactKey: Guid(15f1e22dd8a4b49e7b92201f8209f774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak medium/Billboard/Oak medium BillboardMaterial.mat using Guid(15f1e22dd8a4b49e7b92201f8209f774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac739541d3780d7bb9cf49bb17dbd16') in 0.034875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak small/Billboard/Oak small BillboardMaterial.mat
+  artifactKey: Guid(b4f87a50d96c041a8b4cf4f4d8c115ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak small/Billboard/Oak small BillboardMaterial.mat using Guid(b4f87a50d96c041a8b4cf4f4d8c115ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41efb9eb781a032cd84ee686241e191c') in 0.028478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak tall/Billboard/Oak tall BillboardMaterial.mat
+  artifactKey: Guid(b17fa4064d63f4eb7a5ba3308ffa204f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak tall/Billboard/Oak tall BillboardMaterial.mat using Guid(b17fa4064d63f4eb7a5ba3308ffa204f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1af6c717b2b29d0de72d655275b7e2') in 0.353597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak TreeCreatorMaterials/Materials/oak_branch_big02.mat
+  artifactKey: Guid(5e0b514811cd24f80a037d57dc9c6845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak TreeCreatorMaterials/Materials/oak_branch_big02.mat using Guid(5e0b514811cd24f80a037d57dc9c6845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793bbed6081a32fde59007395e543beb') in 0.238787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_5 20m fat procedural.prefab
+  artifactKey: Guid(4efb18cc9d0374192b31df441cd503fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_5 20m fat procedural.prefab using Guid(4efb18cc9d0374192b31df441cd503fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628f11651047a836106173ec0a72363c') in 0.436031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak TreeCreatorMaterials/Materials/oak_bark thinn.mat
+  artifactKey: Guid(696d6fe0e67af4a368fb516b8dc4c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak TreeCreatorMaterials/Materials/oak_bark thinn.mat using Guid(696d6fe0e67af4a368fb516b8dc4c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929ccb072d879394f6975321c2521e96') in 0.221977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.829630 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_5 20m fat.prefab
+  artifactKey: Guid(ed0b480c251fc4d1aa01c285b337b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_5 20m fat.prefab using Guid(ed0b480c251fc4d1aa01c285b337b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf9bf3de39593f882f24001c9f54ea9') in 0.059323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_7 14m.prefab
+  artifactKey: Guid(27a943860338e49e29bcee334e292041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_7 14m.prefab using Guid(27a943860338e49e29bcee334e292041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91aa6cbf83654ac7609b37037992e658') in 0.051683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees 09 2011/N_oak_6 20m very old.prefab
+  artifactKey: Guid(1563f74ca9aff435da9d13b12e8a8c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees 09 2011/N_oak_6 20m very old.prefab using Guid(1563f74ca9aff435da9d13b12e8a8c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72035789060f70b03a17e824acaa0490') in 0.081359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_6 20m very old lowres.prefab
+  artifactKey: Guid(7592a5d9843224288aeb8b1e93efb5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_6 20m very old lowres.prefab using Guid(7592a5d9843224288aeb8b1e93efb5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00531b60f275dced45723545050b3f9e') in 0.081596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_6 20m very old highres.prefab
+  artifactKey: Guid(944f6a292f7dd456ab7451e70b636b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_6 20m very old highres.prefab using Guid(944f6a292f7dd456ab7451e70b636b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9715044dc13d70f0b24a49fbda34d5e') in 0.072967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees 09 2011/N_oak_2 24m thin donotdelete.prefab
+  artifactKey: Guid(1187667de898b46618b5b0ee2146035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees 09 2011/N_oak_2 24m thin donotdelete.prefab using Guid(1187667de898b46618b5b0ee2146035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310b1c4100ad50edd4039f5bb76b7c30') in 0.064019 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006155 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.101 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1102ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'Custom/EVP Particles Alpha Blended Shadows': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.4 MB). Loaded Objects now: 4807.
+Memory consumption went from 192.3 MB to 190.9 MB.
+Total: 3.334000 ms (FindLiveObjects: 0.340400 ms CreateObjectMapping: 0.105300 ms MarkObjects: 2.438300 ms  DeleteObjects: 0.449400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

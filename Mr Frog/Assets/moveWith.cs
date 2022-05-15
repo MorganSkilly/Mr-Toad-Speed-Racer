@@ -7,6 +7,8 @@ public class moveWith : MonoBehaviour
     public bool moveControl = true;
     public GameObject moveWithObj;
 
+    public AudioClip poop;
+
     private float lastPos;
 
     // Start is called before the first frame update
@@ -25,6 +27,11 @@ public class moveWith : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, transform.position.y, moveWithObj.transform.position.z - 15);
 
             lastPos = moveWithObj.transform.position.z;
+        }
+
+        if(Input.GetButtonDown("Fire1"))
+        {
+            GetComponent<AudioSource>().PlayOneShot(poop);
         }
         
     }

@@ -155,11 +155,11 @@ public class VehicleDamage : MonoBehaviour
 		}
 
 
-	//----------------------------------------------------------------------------------------------
-
-
-	void ProcessImpact ()
+		//----------------------------------------------------------------------------------------------
+		
+		void ProcessImpact ()
 		{
+
 		Vector3 impactVelocity = Vector3.zero;
 
 		if (m_vehicle.localImpactVelocity.sqrMagnitude > minVelocity * minVelocity)

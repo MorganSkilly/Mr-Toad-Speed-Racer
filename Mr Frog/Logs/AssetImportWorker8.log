@@ -1,0 +1,2062 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16291 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/morga/Documents/GitHub/MrToadSpeedRacer/Mr Frog
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+52498
+Successfully changed project path to: C:/Users/morga/Documents/GitHub/MrToadSpeedRacer/Mr Frog
+C:/Users/morga/Documents/GitHub/MrToadSpeedRacer/Mr Frog
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 140.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/morga/Documents/GitHub/MrToadSpeedRacer/Mr Frog/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8171 MB
+    Driver:   30.0.13023.4001
+Shader 'Custom/EVP Particles Alpha Blended Shadows': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005355 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 110.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (662ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (465ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005594 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\morga\Documents\GitHub\MrToadSpeedRacer\Mr Frog\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1233ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (858ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/EVP Particles Alpha Blended Shadows': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4166 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.4 MB). Loaded Objects now: 4748.
+Memory consumption went from 198.9 MB to 197.5 MB.
+Total: 5.319100 ms (FindLiveObjects: 0.719800 ms CreateObjectMapping: 0.160800 ms MarkObjects: 3.855300 ms  DeleteObjects: 0.581000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173262.622283 seconds.
+  path: Assets/LowPolyFarmLite/Materials/LowPolyFarmLite_MAIN.mat
+  artifactKey: Guid(382e2b1b7fbf94945963320a17603c7c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LowPolyFarmLite/Materials/LowPolyFarmLite_MAIN.mat using Guid(382e2b1b7fbf94945963320a17603c7c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b79c4417e44d4442b176023fcca3d390') in 0.099203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/EVP5/Unity Project Settings/Project Settings - Physics.unitypackage
+  artifactKey: Guid(f8f9917e46cbc1a45abab48bbedf2d5f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Unity Project Settings/Project Settings - Physics.unitypackage using Guid(f8f9917e46cbc1a45abab48bbedf2d5f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0904f3deeb0b40bf2b0886ccb87c4ac5') in 0.033525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/EVP5/random mats/New Material 1.mat
+  artifactKey: Guid(a12264effa6912a4b97a7b46f61112a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/random mats/New Material 1.mat using Guid(a12264effa6912a4b97a7b46f61112a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6ddebe4410761d7e3ae3414068791b5') in 0.006490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304947 seconds.
+  path: Assets/LowPolyFarmLite/Models/Tomato_03.fbx
+  artifactKey: Guid(b7cf12fb849f2ce4592a36e9c9c8d4f9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LowPolyFarmLite/Models/Tomato_03.fbx using Guid(b7cf12fb849f2ce4592a36e9c9c8d4f9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18f38774263b88e07ecb0521f9fd9da7') in 0.022231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Racing/Models/Curve_1B.fbx
+  artifactKey: Guid(805640c334e8244c8b58acecefd2de2a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Curve_1B.fbx using Guid(805640c334e8244c8b58acecefd2de2a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af3568a09af7c1fad6479cbeb4a691a5') in 0.013057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Racing/Models/Rotation_Marker.fbx
+  artifactKey: Guid(b96f419f2377540bb9cde62226506326) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Rotation_Marker.fbx using Guid(b96f419f2377540bb9cde62226506326) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '229f18d3b585f77ab1248c9919a8181a') in 0.014951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Racing/Models/Sign_Support_1D.fbx
+  artifactKey: Guid(f5712c6aa65a34ab087e9d803cc82968) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Sign_Support_1D.fbx using Guid(f5712c6aa65a34ab087e9d803cc82968) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de3ab38d4bdd91dd0ba7d0d9ffe8b1dc') in 0.015299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ac1f12f035e0dedf9dc628deb00552f') in 0.017564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SC Post Effects/Runtime/PPS_INSTALLED.txt
+  artifactKey: Guid(672cf712daadb2244b888f3abb6e100d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/PPS_INSTALLED.txt using Guid(672cf712daadb2244b888f3abb6e100d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce273b82a68fa8bfae1529dbd98f811b') in 0.039510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toon Racing/Models/Cone_1A.fbx
+  artifactKey: Guid(4c6e47352f6ce486385c44cb8f1143d2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Cone_1A.fbx using Guid(4c6e47352f6ce486385c44cb8f1143d2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f378a94f499b6e615557b435c6c210f9') in 0.008548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/TomatoPlant_01.prefab
+  artifactKey: Guid(78da2ace1ab76ce478600ebe37fa10fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LowPolyFarmLite/Prefabs/TomatoPlant_01.prefab using Guid(78da2ace1ab76ce478600ebe37fa10fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef271e5f5335a524d46ca81480e43d7e') in 0.013829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Racing/Models/Monster_Truck_12A.fbx
+  artifactKey: Guid(335bec568474f4298868875cfef10fbd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Monster_Truck_12A.fbx using Guid(335bec568474f4298868875cfef10fbd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b191474b34a83e45e48806ed4b79e256') in 0.022493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SC Post Effects/Editor/SCPE.cs
+  artifactKey: Guid(3091bc806808152419b877acca2a1327) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Editor/SCPE.cs using Guid(3091bc806808152419b877acca2a1327) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1434ca4481c0c9f217de8ac9c01a93d') in 0.012341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72cc36a997c75fe7f02affd07850d182') in 0.012376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toon Racing/Models/Sign_Support_1A.fbx
+  artifactKey: Guid(ddefa19a60adb4d8ab7cb334ef8912ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Sign_Support_1A.fbx using Guid(ddefa19a60adb4d8ab7cb334ef8912ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e1610e845d27e65492c7b13766c875f') in 0.016591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowPolyFarmLite/Scenes/LowPolyFarmLite_Overview.unity
+  artifactKey: Guid(0d213542539e07e42a778fc738e204f3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LowPolyFarmLite/Scenes/LowPolyFarmLite_Overview.unity using Guid(0d213542539e07e42a778fc738e204f3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34d4eb1318fd761248e8ce9c59f62ecc') in 0.008489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Racing/Models/Rocks_1B.fbx
+  artifactKey: Guid(4a36f5cf5b61e294bad27c696055601c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Rocks_1B.fbx using Guid(4a36f5cf5b61e294bad27c696055601c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae2d5795d4f704e7c6bff2d63c8e0a09') in 0.015278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowPolyFarmLite/Prefabs/Tomato_03.prefab
+  artifactKey: Guid(fd8e0760db14a534a89257f68a4f2a8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LowPolyFarmLite/Prefabs/Tomato_03.prefab using Guid(fd8e0760db14a534a89257f68a4f2a8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdb62134acfb7bea8ffeb4856a5a644b') in 0.008136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab48e6ef842181cb2159058812eab3c9') in 0.033907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Racing/Models/Impact_Tire_1A.fbx
+  artifactKey: Guid(663fc4df3de9f41ab81a6ea4b3ed6c0d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Impact_Tire_1A.fbx using Guid(663fc4df3de9f41ab81a6ea4b3ed6c0d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9c6bd6a13212b18c2358ff6c9190856') in 0.010378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Racing/Models/Special_1A.fbx
+  artifactKey: Guid(ebce414c180194b92844141e03321316) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Special_1A.fbx using Guid(ebce414c180194b92844141e03321316) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e44718fb31ea368f5323c16d54d32f3') in 0.018410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SC Post Effects/Editor/HelpWindow.cs
+  artifactKey: Guid(f439a670610f1024e867b24799f52089) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Editor/HelpWindow.cs using Guid(f439a670610f1024e867b24799f52089) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a86bdead21970c56f37e37621cf83f40') in 0.009484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SC Post Effects/Shaders/SCPE.hlsl
+  artifactKey: Guid(5d2e6d9667449d3419d58e80b99441a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Shaders/SCPE.hlsl using Guid(5d2e6d9667449d3419d58e80b99441a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcd68eba09893ae64b88b359d1086bc3') in 0.008790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbf534d3fe777ccf5e49fdf6176cc475') in 0.013198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b86add13bcdc3da12ba927c7b4ededf') in 0.008764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebbc584ad2b19b29f3f3469250c9d93d') in 0.008686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toon Racing/Models/Serpentine_1A_Medium.fbx
+  artifactKey: Guid(3858a926f9b5749fa9247ff72674dd60) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Serpentine_1A_Medium.fbx using Guid(3858a926f9b5749fa9247ff72674dd60) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6542c79876b16758225ba1a4f00e4bc9') in 0.018411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ec38c8ed50999f59857062210178c69') in 0.009890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.013225 seconds.
+  path: Assets/Toon Racing/Models/Stand_1C.fbx
+  artifactKey: Guid(bbeb8e9585e564ecb9742be2f5f71fdc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Stand_1C.fbx using Guid(bbeb8e9585e564ecb9742be2f5f71fdc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a500993be7082a0b05e0bef030017df') in 0.009747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Racing/Scenes/Demo_Scene_2.unity
+  artifactKey: Guid(ab0f071b36f0948f78eb87fd081a5ee4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Scenes/Demo_Scene_2.unity using Guid(ab0f071b36f0948f78eb87fd081a5ee4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c970e8945cec89e8319ab2fd764a7b7') in 0.007983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/EVP5/Vehicles/veBus/vebus_SP_collider.fbx
+  artifactKey: Guid(3426830515f5a444c856f26cd4ef5f38) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Vehicles/veBus/vebus_SP_collider.fbx using Guid(3426830515f5a444c856f26cd4ef5f38) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '480b18b5f25311484edab0a38eef5f60') in 0.009994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toon Racing/Textures/Tiles_1A.psd
+  artifactKey: Guid(b6ba55f3eab0e4be587f85da8fe16039) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Tiles_1A.psd using Guid(b6ba55f3eab0e4be587f85da8fe16039) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9920081259b8ebaae20181b8df59d0eb') in 0.013392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Racing/Textures/Rally_Car_3B_D.psd
+  artifactKey: Guid(ec6dca015c9674a72b546088e4acc9d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Rally_Car_3B_D.psd using Guid(ec6dca015c9674a72b546088e4acc9d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9117144be46dc7ffabd8bd16661ca167') in 0.008955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EVP5/Visual Effects/Shaders/EVPParticleShadows.cginc
+  artifactKey: Guid(907c941fb633d4b4fb11c1a8e15c5c18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Visual Effects/Shaders/EVPParticleShadows.cginc using Guid(907c941fb633d4b4fb11c1a8e15c5c18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6acc22d72b35640cf77b759a04823a0b') in 0.008605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toon Racing/Models/Straight_1E.fbx
+  artifactKey: Guid(7729b7d03fd6a453d8e5cd766c1bc558) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Straight_1E.fbx using Guid(7729b7d03fd6a453d8e5cd766c1bc558) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8700f8b428d216df9067cb8f58bce904') in 0.011779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Racing/Textures/Advertising_1A_Ramp.psd
+  artifactKey: Guid(6f5f17154b57e41edaaaaf3e12bfb594) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Advertising_1A_Ramp.psd using Guid(6f5f17154b57e41edaaaaf3e12bfb594) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05d01c507a9e0e63065c0f9a26f7827e') in 0.013299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Pack - Environment Lite/Models/Boxes/Chest_2_7.fbx
+  artifactKey: Guid(b7f777cd24c896748a7bafd85c6aed6b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Pack - Environment Lite/Models/Boxes/Chest_2_7.fbx using Guid(b7f777cd24c896748a7bafd85c6aed6b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd58e22efe9a4b1795a2f5734582fbc8c') in 0.010099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EasyRoads3D scenes/Terrain Assets/Terrain Textures/Cliff (Layered Rock) ER.psd
+  artifactKey: Guid(18214e9d6af6248559d501391856f1c7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EasyRoads3D scenes/Terrain Assets/Terrain Textures/Cliff (Layered Rock) ER.psd using Guid(18214e9d6af6248559d501391856f1c7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9769cc427c9dccb152de4bc4ff8b1e3') in 0.015986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/EVP5/Scripts/Tools/CommonTools.cs
+  artifactKey: Guid(a7f646181655ab34fb8fc1df6fb14aa3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Scripts/Tools/CommonTools.cs using Guid(a7f646181655ab34fb8fc1df6fb14aa3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c853c5b8d4685d2595a2460e36e3dcca') in 0.008351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/EVP5/Visual Effects/Shaders/EVP Tire Marks Bump.shader
+  artifactKey: Guid(1cdcb8b96b643194aa3c601dc09a58b1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Visual Effects/Shaders/EVP Tire Marks Bump.shader using Guid(1cdcb8b96b643194aa3c601dc09a58b1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe3e4d425446aab8448ab67fe7e7da0f') in 0.007317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Racing/Textures/Platform_1A_Ramp.psd
+  artifactKey: Guid(1394336f430ae4f09b3ac4a745c4d46d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Platform_1A_Ramp.psd using Guid(1394336f430ae4f09b3ac4a745c4d46d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57f26a56aa4752cd5812634f1035c87f') in 0.008921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EVP5/Scripts/Ground Materials/GroundMaterialManager.cs
+  artifactKey: Guid(e227284ab78ef76499cf9036eba3fc32) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Scripts/Ground Materials/GroundMaterialManager.cs using Guid(e227284ab78ef76499cf9036eba3fc32) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4197273fff1bc78c1f08e3cb5b30a3ff') in 0.007973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Pack - Environment Lite/Models/Fences/Fence_1_5.fbx
+  artifactKey: Guid(ed2f80e79e4b6bf4aa913c238648ab3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Pack - Environment Lite/Models/Fences/Fence_1_5.fbx using Guid(ed2f80e79e4b6bf4aa913c238648ab3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0a59c69dc4172db63892e9b8874d1ac') in 0.009249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EVP5/World/Pixelactive City/Pixelactive_City_FBX.fbx
+  artifactKey: Guid(2c1544850f7de4cd68111994dcb5a39d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/World/Pixelactive City/Pixelactive_City_FBX.fbx using Guid(2c1544850f7de4cd68111994dcb5a39d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9dd1f4f4345d6825b992cff7c04c722c') in 0.035865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Racing/Textures/Advertising_1A_D.psd
+  artifactKey: Guid(8e8a57f70124f4792aaf4cc38949aa3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Advertising_1A_D.psd using Guid(8e8a57f70124f4792aaf4cc38949aa3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2257ccb8c0d1b786f20965a26c8576f') in 0.016858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toon Racing/Textures/Grass_1B.psd
+  artifactKey: Guid(fbbbcdf8b8f24c748b64f502852519c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Grass_1B.psd using Guid(fbbbcdf8b8f24c748b64f502852519c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfb4c8b90efc48b702c7af6679bb5f45') in 0.013293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Pack - Environment Lite/Models/Carts/Cart_2_4.fbx
+  artifactKey: Guid(7d209b9ebe39f064f92a59cada7dca87) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Pack - Environment Lite/Models/Carts/Cart_2_4.fbx using Guid(7d209b9ebe39f064f92a59cada7dca87) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d979dc0fa7ac2769a373f538cbe771a') in 0.020735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Racing/Textures/Monster_Truck_12A_D.psd
+  artifactKey: Guid(82f7f4307b1ae4c488fd53b38e1f94ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Monster_Truck_12A_D.psd using Guid(82f7f4307b1ae4c488fd53b38e1f94ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42efc9157775dc54fc65838cd2ff1096') in 0.014231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Racing/Models/Straight_1F_Long.fbx
+  artifactKey: Guid(f4931b978068a46c998c7ddda388e6df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Straight_1F_Long.fbx using Guid(f4931b978068a46c998c7ddda388e6df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fbd38789f5c5d751a622f545602578b') in 0.014654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Racing/Textures/Monster_Truck_10A_D.psd
+  artifactKey: Guid(f692f0be397104ea288ef3be4054a15b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Monster_Truck_10A_D.psd using Guid(f692f0be397104ea288ef3be4054a15b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ed19b5f631c70b76a0205020f28f022') in 0.023152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Racing/Textures/Race_Car_7A_D.psd
+  artifactKey: Guid(0378a3325bd10437c8144ac7791a3273) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Race_Car_7A_D.psd using Guid(0378a3325bd10437c8144ac7791a3273) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35aaefc1ee56c0313f7e273135a2e38e') in 0.031272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Pack - Environment Lite/Models/Rocks/Rock_1_13.fbx
+  artifactKey: Guid(d6b0756621b0c4442b99211a8c7d9091) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Pack - Environment Lite/Models/Rocks/Rock_1_13.fbx using Guid(d6b0756621b0c4442b99211a8c7d9091) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f6b20b1e1159f5e76b0336e5add0761') in 0.032320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EVP5/Vehicles/Generic/Generic Vehicle Texure - brakes mask.png
+  artifactKey: Guid(2320e825cd1682045972e89ee5cd5972) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Vehicles/Generic/Generic Vehicle Texure - brakes mask.png using Guid(2320e825cd1682045972e89ee5cd5972) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9befba1c96bdc2b107b4a5779d3f0b6') in 0.013706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toon Racing/Textures/Race_Car_8A_D.psd
+  artifactKey: Guid(8e06c4dfb54a74a69a0279ad3bdf931e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Race_Car_8A_D.psd using Guid(8e06c4dfb54a74a69a0279ad3bdf931e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '215b7baa466dcf4fc4f78ed682402e0b') in 0.008582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Pack - Environment Lite/Models/Trees/Tree_2_4.FBX
+  artifactKey: Guid(1733abe710a7dbf4ba75c427d1c3a3fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Pack - Environment Lite/Models/Trees/Tree_2_4.FBX using Guid(1733abe710a7dbf4ba75c427d1c3a3fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4fd286064d28ca966f72a08388fbcba') in 0.008129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Pack - Environment Lite/Models/Grass/Flower_1_1.fbx
+  artifactKey: Guid(863beeff2b7197d4d953165d22ff927e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Pack - Environment Lite/Models/Grass/Flower_1_1.fbx using Guid(863beeff2b7197d4d953165d22ff927e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f9a782c741e4f027f163c1668254713') in 0.009598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Racing/Textures/Flower_Billboard_1A.psd
+  artifactKey: Guid(f257a957cf5e5d14ebde5ae792207d41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Flower_Billboard_1A.psd using Guid(f257a957cf5e5d14ebde5ae792207d41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c7791ed1f8b685884927d75309a2a21') in 0.014792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Racing/Textures/Dirt_1C.psd
+  artifactKey: Guid(79ef6d1fabf1d41b8aad0c4834a7490b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Dirt_1C.psd using Guid(79ef6d1fabf1d41b8aad0c4834a7490b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ae1c3b585cb77a66a56cc28787bc1ef') in 0.013482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/EVP5/Scripts/Extra/RigidbodyImpulse.cs
+  artifactKey: Guid(3ac12b37d7fbe6042a9d367f1ff062a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Scripts/Extra/RigidbodyImpulse.cs using Guid(3ac12b37d7fbe6042a9d367f1ff062a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a279b0647a81beb107faf9fb4c07970e') in 0.009718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/EVP5/Scripts/Tools/TextureCanvas.cs
+  artifactKey: Guid(77053e22c9a347043a414f846c44eedb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Scripts/Tools/TextureCanvas.cs using Guid(77053e22c9a347043a414f846c44eedb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1e92226725ca2d0c41f5284d3a87deb') in 0.008605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/nTools/PrefabPainter/GUI/AddIcon_HIDPI.png
+  artifactKey: Guid(51d5394681c1e49edbd6f772153b6320) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/GUI/AddIcon_HIDPI.png using Guid(51d5394681c1e49edbd6f772153b6320) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b1d3cf8203d050f38a8a06f5612c3e7') in 0.015351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Racing/Textures/Race_Car_7C_D.psd
+  artifactKey: Guid(714a19d209468d54f9691d3c543f9b35) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Race_Car_7C_D.psd using Guid(714a19d209468d54f9691d3c543f9b35) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a0fbc3cd332ccfefd2fd0e7cfcedecc') in 0.010549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EasyRoads3D/textures/roads/sidewalk 1.tga
+  artifactKey: Guid(be4e4c4c102698e4e9c632fe2218de46) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EasyRoads3D/textures/roads/sidewalk 1.tga using Guid(be4e4c4c102698e4e9c632fe2218de46) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f86c693f5194a64f5b7c3f9e309d263') in 0.011817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Racing/Textures/Race_Car_5B_D.psd
+  artifactKey: Guid(ebaa2668471e6460f8dec24f1cc38de2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Race_Car_5B_D.psd using Guid(ebaa2668471e6460f8dec24f1cc38de2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77fd1fb170a279cda6a47abe7988cf7e') in 0.010093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Racing/Textures/Road_1A_D.psd
+  artifactKey: Guid(f60c41d9f77e64ae886dfa8236d7bd6f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Textures/Road_1A_D.psd using Guid(f60c41d9f77e64ae886dfa8236d7bd6f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e445ddf0acf00e4b1f994e88c8221d1') in 0.010083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.652101 seconds.
+  path: Assets/nTools/PrefabPainter/GUI/BrushTool.png
+  artifactKey: Guid(d4c4f13bed2a0467ba4aa813a060c2ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/GUI/BrushTool.png using Guid(d4c4f13bed2a0467ba4aa813a060c2ae) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c5b01220f53460f10111164c5d726f1') in 0.016486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SC Post Effects/Editor/Editors/LightStreaksEditor.cs
+  artifactKey: Guid(4bcaf4c6eab350e4c93e4bb5686701e1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Editor/Editors/LightStreaksEditor.cs using Guid(4bcaf4c6eab350e4c93e4bb5686701e1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f997b8b2b5e3bb5f282ccf93916a0202') in 0.008636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SC Post Effects/Editor/Editors/LUTEditor.cs
+  artifactKey: Guid(9895c09b72c72c64b81ea7e45d7ca14d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Editor/Editors/LUTEditor.cs using Guid(9895c09b72c72c64b81ea7e45d7ca14d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6e8133a09a44004e138fd9b518992a6') in 0.011666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SC Post Effects/Runtime/Scanlines/ScanlinesRenderer.cs
+  artifactKey: Guid(97a529de71a3723409dc5bcc5e30cf8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Scanlines/ScanlinesRenderer.cs using Guid(97a529de71a3723409dc5bcc5e30cf8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d7b79f87ba3dcf861000267188c7acf') in 0.010459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SC Post Effects/Runtime/Kuwahara/KuwaharaRenderer.cs
+  artifactKey: Guid(400dc2baa0a22054cb259512e4ce8907) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Kuwahara/KuwaharaRenderer.cs using Guid(400dc2baa0a22054cb259512e4ce8907) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f6bb5b9a294b53ac6f260e374ab9929') in 0.010123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SC Post Effects/Runtime/Dithering/DitherStripes.png
+  artifactKey: Guid(e957d25ccac00c4418a301207c468102) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Dithering/DitherStripes.png using Guid(e957d25ccac00c4418a301207c468102) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59ac4a49e3a9a91362bd7f6e37e2daab') in 0.019270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Forest_Mountain_Moss_01.fbx
+  artifactKey: Guid(d818648c1b009ab48a03dbcc4ae09583) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Forest_Mountain_Moss_01.fbx using Guid(d818648c1b009ab48a03dbcc4ae09583) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23d10b0f56efa3ee8a97b91403d58257') in 0.016748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SC Post Effects/Runtime/Mosaic/Mosaic.cs
+  artifactKey: Guid(09b7b0942607ccd449f69be2e55a1c17) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Mosaic/Mosaic.cs using Guid(09b7b0942607ccd449f69be2e55a1c17) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b26ac3318b50ede63b521d168dc75d0') in 0.008528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Lake_Ground_04.prefab
+  artifactKey: Guid(66072c42e7f38924f90a2ea3e36cc606) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Lake_Ground_04.prefab using Guid(66072c42e7f38924f90a2ea3e36cc606) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9442ab1c09dd2158bfac33269ad30448') in 0.021691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_6 20m very old lowres.prefab
+  artifactKey: Guid(7592a5d9843224288aeb8b1e93efb5f1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_6 20m very old lowres.prefab using Guid(7592a5d9843224288aeb8b1e93efb5f1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e41bf33a70e18578ef99f72779c9cf44') in 0.043340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SC Post Effects/Runtime/RadialBlur/RadialBlur.cs
+  artifactKey: Guid(a6be0f3e2e9c92846ae26c4e591cb156) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/RadialBlur/RadialBlur.cs using Guid(a6be0f3e2e9c92846ae26c4e591cb156) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63712dbb9510bd04d6c243d6294d8619') in 0.009694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/nTools/PrefabPainter/GUI/TagIcon.png
+  artifactKey: Guid(5454cc141383b465da00393aaa7615b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/GUI/TagIcon.png using Guid(5454cc141383b465da00393aaa7615b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '255f70a896ed3bb6fc0fb1a6819458ab') in 0.015237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SC Post Effects/Runtime/Sketch/Sketch_Strokes_RG.png
+  artifactKey: Guid(8bd158bf28fbf3d4cb9151f3c3ae5516) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Sketch/Sketch_Strokes_RG.png using Guid(8bd158bf28fbf3d4cb9151f3c3ae5516) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '595403db69b7b84a2e2a022520f25b8e') in 0.030219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SC Post Effects/Editor/Editors/LUTExtracter.cs
+  artifactKey: Guid(b5b668e2ebf529741aaf12d64662ceed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Editor/Editors/LUTExtracter.cs using Guid(b5b668e2ebf529741aaf12d64662ceed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '091c1fe5b7f2275aa8a41e6b8d57cdaa') in 0.010868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Daffodil_03.prefab
+  artifactKey: Guid(13dd10d6717971d4ea9125d158299b1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Daffodil_03.prefab using Guid(13dd10d6717971d4ea9125d158299b1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb971454e3a463292d64ee6c783a19ac') in 0.025498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SC Post Effects/Editor/Editors/CausticsEditor.cs
+  artifactKey: Guid(c68d554980ecaf242853fc73a39e7d46) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Editor/Editors/CausticsEditor.cs using Guid(c68d554980ecaf242853fc73a39e7d46) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6317df1c563da07796a8fd58c4804ceb') in 0.010005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SC Post Effects/Runtime/Overlay/Overlay.cs
+  artifactKey: Guid(e3ffd454053aaa249a62a461f9c8db22) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Overlay/Overlay.cs using Guid(e3ffd454053aaa249a62a461f9c8db22) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '689ebdd9e150c49ae8c06f7358117ab2') in 0.011570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_15.prefab
+  artifactKey: Guid(b8217b9c1183a5144b666d1dd63980c4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_15.prefab using Guid(b8217b9c1183a5144b666d1dd63980c4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4f812132e71a906a0ed4147215fb482') in 0.020839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_1 fully procedural donotdelete.prefab
+  artifactKey: Guid(3ddc93e2e459b4f459c7636f8a7372f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_1 fully procedural donotdelete.prefab using Guid(3ddc93e2e459b4f459c7636f8a7372f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69796f8a594f6031bdfae72e9b4fd464') in 0.026447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Scenes/Demo_List.unity
+  artifactKey: Guid(c5fac116710c5e743a2245d7f2e9ceea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Scenes/Demo_List.unity using Guid(c5fac116710c5e743a2245d7f2e9ceea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17b45e88ca412e8868a930007eda01dd') in 0.009740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SC Post Effects/Runtime/Dithering/DitherBayern16x16.png
+  artifactKey: Guid(7a95f13299f9b0948aff699c1881bfc6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Dithering/DitherBayern16x16.png using Guid(7a95f13299f9b0948aff699c1881bfc6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e799b9dfa82d0026a1bfe5f2764c7447') in 0.014686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/nTools/PrefabPainter/Scripts/PrefabPainterSceneSettings.cs
+  artifactKey: Guid(5d0d71238b38a4a38b35b955fbf5c019) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/Scripts/PrefabPainterSceneSettings.cs using Guid(5d0d71238b38a4a38b35b955fbf5c019) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da7d7582b065faf20555bcacb7d3333d') in 0.010504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/nTools/PrefabPainter/GUI/PPIconW.png
+  artifactKey: Guid(8dec757710cb44f04b214bacbafb5f40) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/GUI/PPIconW.png using Guid(8dec757710cb44f04b214bacbafb5f40) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24a63cc0ac860a31ed0d6e4119f7d0dd') in 0.012139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_7 14m.prefab
+  artifactKey: Guid(27a943860338e49e29bcee334e292041) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak_7 14m.prefab using Guid(27a943860338e49e29bcee334e292041) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fab9a8e82de195fd5ec09b412ace679') in 0.025914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SC Post Effects/Runtime/Sketch/Sketch_Lines_RG.png
+  artifactKey: Guid(81ab897f520927840988e55ad3c89d6e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Sketch/Sketch_Lines_RG.png using Guid(81ab897f520927840988e55ad3c89d6e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '873e6cf87055346f919ff39bd3fc75d6') in 0.029580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SC Post Effects/Runtime/HueShift3D/HueShift3DRenderer.cs
+  artifactKey: Guid(0901745d61172c94ca041c037ed39361) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/HueShift3D/HueShift3DRenderer.cs using Guid(0901745d61172c94ca041c037ed39361) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a283c227bd0084ef622bfe375744a56b') in 0.009086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Lake_Ground_04.fbx
+  artifactKey: Guid(38b178f6a1ea19f4baf761918779b712) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Lake_Ground_04.fbx using Guid(38b178f6a1ea19f4baf761918779b712) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2ac6d5242ec1aa96f0284c809c1ae24') in 0.009480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/nTools/PrefabPainter/GUI/OrientTool_HIDPI.png
+  artifactKey: Guid(8375138855ef845c2b1505319b2c2210) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/GUI/OrientTool_HIDPI.png using Guid(8375138855ef845c2b1505319b2c2210) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '856556d1dda14b9bae8c08c5c2aa390b') in 0.013830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SC Post Effects/Runtime/Gradient/GradientRenderer.cs
+  artifactKey: Guid(058d8bb16aaa48740a270439645f313d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Gradient/GradientRenderer.cs using Guid(058d8bb16aaa48740a270439645f313d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1413cc180d5b732ffb65f0abc8638954') in 0.009124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SC Post Effects/Runtime/CloudShadows/SCPE_Clouds_02.png
+  artifactKey: Guid(5169c93c178dd854baf6808e4a1750c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/CloudShadows/SCPE_Clouds_02.png using Guid(5169c93c178dd854baf6808e4a1750c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '305ccb4da6d414a6fd05438f3834f0b3') in 0.016829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Tree_10.fbx
+  artifactKey: Guid(a3ccb41ae53c6bf4bb0a5bfc470bf069) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Tree_10.fbx using Guid(a3ccb41ae53c6bf4bb0a5bfc470bf069) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20584d9d7b6f421190b7c290e62d3d1d') in 0.009589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SC Post Effects/Editor/Editors/RefractionEditor.cs
+  artifactKey: Guid(bc77ec6bcf39f224291d22e1c0b632a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Editor/Editors/RefractionEditor.cs using Guid(bc77ec6bcf39f224291d22e1c0b632a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bc76367767d1aa99dd3158d18a766d9') in 0.011298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/nTools/PrefabPainter/GUI/PinTool.png
+  artifactKey: Guid(b174cbcba8e4d41269a2b9ab704397f4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/GUI/PinTool.png using Guid(b174cbcba8e4d41269a2b9ab704397f4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fab606049a448995c78553bcf404c4e') in 0.015607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/nTools/PrefabPainter/GUI/MoveTool.png
+  artifactKey: Guid(135f45923811d44558b9259a9ab66497) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/GUI/MoveTool.png using Guid(135f45923811d44558b9259a9ab66497) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bdf9418cf4700cceca1a087aec490e9b') in 0.012081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.374428 seconds.
+  path: Assets/SC Post Effects/Runtime/SpeedLines/SpeedNoise.png
+  artifactKey: Guid(fe06d9035cfd4064497518ed947395ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/SpeedLines/SpeedNoise.png using Guid(fe06d9035cfd4064497518ed947395ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cad119def264a44389bda9ece2ccc097') in 0.016407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Racing/ToonShading/Shaders/TR_CustomToon.shader
+  artifactKey: Guid(67e86f56411d217478b9e978ad0df960) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/ToonShading/Shaders/TR_CustomToon.shader using Guid(67e86f56411d217478b9e978ad0df960) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cfdf3b3a3847a4577bb9a636e075aee') in 0.009569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_5C_D.mat
+  artifactKey: Guid(f52dcc8461f87644fba21a595abe38bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_5C_D.mat using Guid(f52dcc8461f87644fba21a595abe38bf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '146e82e081383c7fea8cbe27e5fdf3b7') in 0.010041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Racing/Models/Colliders/Rally_Car_1A_MeshCollider.fbx
+  artifactKey: Guid(b31275923280c49e2b9cf05498f8c5be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Colliders/Rally_Car_1A_MeshCollider.fbx using Guid(b31275923280c49e2b9cf05498f8c5be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96b6b1dd07859db9f9201483ad72cbe8') in 0.013175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Racing/Terrain/Layers/Layer_Dirt_1D.terrainlayer
+  artifactKey: Guid(d23bd2c558bec6e45990d82d5a59572c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Terrain/Layers/Layer_Dirt_1D.terrainlayer using Guid(d23bd2c558bec6e45990d82d5a59572c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '515b185d037c830d1394bf41f47095fe') in 0.010917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SC Post Effects/_Samples/TransitionGradients/NoiseTransition.png
+  artifactKey: Guid(f629453e020682040ad85978c56510f4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/_Samples/TransitionGradients/NoiseTransition.png using Guid(f629453e020682040ad85978c56510f4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2ada9011a710cfe199e86c7d3a2bb30') in 0.016910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Fence_1D.prefab
+  artifactKey: Guid(6e92faa941e10489390a9e58701b9253) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Fence_1D.prefab using Guid(6e92faa941e10489390a9e58701b9253) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ee420b06b7e495f4ef678ae00761020') in 0.016874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EasyRoads3D/Resources/Materials/sidewalks/sidewalk 1.mat
+  artifactKey: Guid(fe1905319a1f07a4982c157aa91acc6e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EasyRoads3D/Resources/Materials/sidewalks/sidewalk 1.mat using Guid(fe1905319a1f07a4982c157aa91acc6e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1fb6aeb941a3e9931154c59a0920765') in 0.008937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_4C_D.mat
+  artifactKey: Guid(b6e2c588ad1362d40b255e76c4e069b5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_4C_D.mat using Guid(b6e2c588ad1362d40b255e76c4e069b5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a5f6856e8a08f0854c025fe391c929f') in 0.007749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+  artifactKey: Guid(70615243e2be4a81afaab9bf5d273d65) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity using Guid(70615243e2be4a81afaab9bf5d273d65) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a6232e90917113db9c6f8dabb05d349') in 0.009949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SC Post Effects/Runtime/Transition/TransitionRenderer.cs
+  artifactKey: Guid(75abc38b4cd3a4d4982e12c466596dad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Transition/TransitionRenderer.cs using Guid(75abc38b4cd3a4d4982e12c466596dad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcbecb20785c36321282663878c8918d') in 0.008792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Fence_1B.prefab
+  artifactKey: Guid(9f843be2e39534723a01dc4a113f667b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Fence_1B.prefab using Guid(9f843be2e39534723a01dc4a113f667b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b7f5c0e6aae4f0dd28d0da83e2f94a1') in 0.012267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_3C_D.mat
+  artifactKey: Guid(d4829061a0672cc4c97ded7dfb9ba59f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_3C_D.mat using Guid(d4829061a0672cc4c97ded7dfb9ba59f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba005800974b60c94502a20cef2c9498') in 0.007860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/EasyRoads3D/Resources/Materials/crossings/crossing material.mat
+  artifactKey: Guid(3c555588afad81d428ad1704d5d015a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EasyRoads3D/Resources/Materials/crossings/crossing material.mat using Guid(3c555588afad81d428ad1704d5d015a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f514e3d50cd06307e20c154c7826743e') in 0.011085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SC Post Effects/_Samples/Gradients/RainbowGradient.psd
+  artifactKey: Guid(4ea2e43ba6316b7428cb5808c696bc96) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/_Samples/Gradients/RainbowGradient.psd using Guid(4ea2e43ba6316b7428cb5808c696bc96) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70200d144690706322d9e59bed303357') in 0.015899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Spotlight_Support_1B.prefab
+  artifactKey: Guid(5023eaed8ed6145efa60755c6831bceb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Spotlight_Support_1B.prefab using Guid(5023eaed8ed6145efa60755c6831bceb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb67049a402415ff6f5f324f59a47f6d') in 0.015499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SC Post Effects/_Samples/Danger/SCPE_BloodSplatter1.png
+  artifactKey: Guid(bd7c1e9493bbf9442aa1a36ed8f8b23e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/_Samples/Danger/SCPE_BloodSplatter1.png using Guid(bd7c1e9493bbf9442aa1a36ed8f8b23e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a154cbdc2dbc7eaa21dcbedd96630f1a') in 0.017165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/EVP5/Vehicles/L200/Materials/L200-prototype-NewPickup Truck Texture.mat
+  artifactKey: Guid(e8a96f72c397dad4fa63b6660c6f7ce3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Vehicles/L200/Materials/L200-prototype-NewPickup Truck Texture.mat using Guid(e8a96f72c397dad4fa63b6660c6f7ce3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '937f06841e0d51254ad8a90fd6348288') in 0.008724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+  artifactKey: Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity using Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dacba8467267226494e948e9a076111e') in 0.009092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/SampleScenes/Carpark_PrefabLayout.unity
+  artifactKey: Guid(bd100a778af413d45ae501bc5f461af8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/SampleScenes/Carpark_PrefabLayout.unity using Guid(bd100a778af413d45ae501bc5f461af8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09fffba8efc6039b413c777dbe52eef4') in 0.029715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efabfcba760f5e4736ae9df2d271002d') in 0.008563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Fence_3A.prefab
+  artifactKey: Guid(35dfd20fc8eb84a7fb01e20b352eb126) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Fence_3A.prefab using Guid(35dfd20fc8eb84a7fb01e20b352eb126) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4a31ebfe0bd6acb2dfb7fbe0f537cd1') in 0.015075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Racing/Models/Materials/Monster_Truck_12B_D.mat
+  artifactKey: Guid(06ab9090651a546a9937049b632bfd2a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Materials/Monster_Truck_12B_D.mat using Guid(06ab9090651a546a9937049b632bfd2a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e91671c8e5453bcc6a027f37de1f343') in 0.014038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e8a05cffd9100fa720c3ee08906c101') in 0.013786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Stand_1C.prefab
+  artifactKey: Guid(6b03198e37747453c94cab86e5fa6c28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Stand_1C.prefab using Guid(6b03198e37747453c94cab86e5fa6c28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6436a50787536057acbe965075c227e') in 0.015871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Fence_3B.prefab
+  artifactKey: Guid(a48c8301d95e84bd98ef2da3a4b60096) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Fence_3B.prefab using Guid(a48c8301d95e84bd98ef2da3a4b60096) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04f3e6bee05732634292650c84c999c3') in 0.016144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SC Post Effects/_Samples/Profiles/SCPE_Painterly.asset
+  artifactKey: Guid(e6a4de335b05ce54b96a2e7b001bf9e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/_Samples/Profiles/SCPE_Painterly.asset using Guid(e6a4de335b05ce54b96a2e7b001bf9e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4a09a2b7b842c26a538317eb28251e7') in 0.011073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_3A.prefab
+  artifactKey: Guid(b419653ba01cb445dbedfe80b7638872) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Sign_Support_3A.prefab using Guid(b419653ba01cb445dbedfe80b7638872) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b81f0a9c7df1cd5abadd83829af0ad3') in 0.013061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61bc3f4820bf70ac44210924344b0719') in 0.008583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SC Post Effects/_Samples/Profiles/SCPE_Comic.asset
+  artifactKey: Guid(89eedffcefbcd0a45be407eb7b872a27) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/_Samples/Profiles/SCPE_Comic.asset using Guid(89eedffcefbcd0a45be407eb7b872a27) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8a6bac273942988fcc4052010405c35') in 0.010460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Spotlight_Support_1A.prefab
+  artifactKey: Guid(4e8f7d66d2c1b4a8ca93ac17b40523de) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Spotlight_Support_1A.prefab using Guid(4e8f7d66d2c1b4a8ca93ac17b40523de) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef13f42f9dc2beda2ec71e7bdd94c92b') in 0.015965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Straight_1C.prefab
+  artifactKey: Guid(69d591fab35b74543b686bbde1d94963) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Straight_1C.prefab using Guid(69d591fab35b74543b686bbde1d94963) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2976d56bb94a67db5877015ccbb59e5d') in 0.011262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd460257021dfec8e0960a56975c4bbe1') in 0.009797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Rocks_1B.prefab
+  artifactKey: Guid(cfae4eb229870da4b8890b84f8475cab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Props/Rocks_1B.prefab using Guid(cfae4eb229870da4b8890b84f8475cab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ce623cc45c7a1f35953231e524aaa59') in 0.014107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '188b5ffd84a4632ce9b4e2cf4d34925b') in 0.007613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/White_snaps019.mat
+  artifactKey: Guid(83ad043e490864e4f8ef1f8a01e123b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/White_snaps019.mat using Guid(83ad043e490864e4f8ef1f8a01e123b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09dd3a9b11cefbe74e458f6ec6a0ef9b') in 0.014344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0b819655197ade6336cb4602d3df66b') in 0.013021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  artifactKey: Guid(52ec835d14bd486f900952b77698b7eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs using Guid(52ec835d14bd486f900952b77698b7eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04f73952adf040800b35362cc15cd18e') in 0.009368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Stand_1F.prefab
+  artifactKey: Guid(89981d3ab535946fdaccb5eca06a6771) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Stand_1F.prefab using Guid(89981d3ab535946fdaccb5eca06a6771) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0f27fe1d2c248a032a23f4c2cfce535') in 0.014264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Special_1A.prefab
+  artifactKey: Guid(0ac9677067f6d47239fa2ffd9e81e665) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Special_1A.prefab using Guid(0ac9677067f6d47239fa2ffd9e81e665) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f47590cb265adddbc896bb30f48f59d') in 0.013303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_2B_D.mat
+  artifactKey: Guid(65086b09f179c4709b4a16d31e780bc4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_2B_D.mat using Guid(65086b09f179c4709b4a16d31e780bc4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8aa6b0f847b6ae3f4616e16ab23084f') in 0.009283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SC Post Effects/_Samples/Gradients/ThermalGradient.psd
+  artifactKey: Guid(33f1e29958f0470408dcdccdbc83359e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/_Samples/Gradients/ThermalGradient.psd using Guid(33f1e29958f0470408dcdccdbc83359e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8d197c8d688b0972c1c4887fb6f911d') in 0.012000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EasyRoads3D/Resources/Materials/sidewalks/sidewalk.mat
+  artifactKey: Guid(d74dc327ca3fad8408eeeaf8ad54a110) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EasyRoads3D/Resources/Materials/sidewalks/sidewalk.mat using Guid(d74dc327ca3fad8408eeeaf8ad54a110) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a89c04784de2b94a2783321f2be331a4') in 0.008171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+  artifactKey: Guid(e32c266ee6204b21a427753cb0694c81) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs using Guid(e32c266ee6204b21a427753cb0694c81) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a188f28bc34a249070ba6f137c718b68') in 0.010648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toon Racing/Prefabs/Props/Extinguisher_1A.prefab
+  artifactKey: Guid(0ca801adb57714860a8d80e0b8333b8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Props/Extinguisher_1A.prefab using Guid(0ca801adb57714860a8d80e0b8333b8c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8478b67430e5e0141052050601b2084f') in 0.014555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Racing/Prefabs/Track Kit/Straight_1F.prefab
+  artifactKey: Guid(6a7adf77273304836a80ea35b5659fd9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Track Kit/Straight_1F.prefab using Guid(6a7adf77273304836a80ea35b5659fd9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ffc7ae3b4a1002e5a9dc3894ca13f59') in 0.016150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SC Post Effects/_Samples/RefractionMaps/SCPE_Frost.png
+  artifactKey: Guid(22397d0b212f9f249926d64f1abc8877) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/_Samples/RefractionMaps/SCPE_Frost.png using Guid(22397d0b212f9f249926d64f1abc8877) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02c8b22dd495ab9b34dfd190318fd916') in 0.011842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Racing/Profiles/LUT/Clear_Day_1.psd
+  artifactKey: Guid(39a09b27c8657d846a5aebd37c3236ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Profiles/LUT/Clear_Day_1.psd using Guid(39a09b27c8657d846a5aebd37c3236ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c23399f19b09d7dfeeb152c6c0a9bcf') in 0.011716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EVP5/Vehicles/SportCoupe/Materials/sportcoupe-coupepaint.mat
+  artifactKey: Guid(6f932c4add1e0e5448d13758634b4ba3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Vehicles/SportCoupe/Materials/sportcoupe-coupepaint.mat using Guid(6f932c4add1e0e5448d13758634b4ba3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd52f7ab544ce25bf71207f3f3009a1e4') in 0.013276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees 09 2011/N_oak TreeCreator Materials/N_oakbranch_simple.fbx
+  artifactKey: Guid(9c071809643154ddb87112992974c350) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees 09 2011/N_oak TreeCreator Materials/N_oakbranch_simple.fbx using Guid(9c071809643154ddb87112992974c350) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b7e70602f175ef710e10e7357210603') in 0.011164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Shared Textures/Oak Branches [Normal] [Specular].psd
+  artifactKey: Guid(76de8dc8b110e4b9aba1936820067801) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Shared Textures/Oak Branches [Normal] [Specular].psd using Guid(76de8dc8b110e4b9aba1936820067801) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab56e392b8b8b5e51168f727349e9304') in 0.024768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/nTools/PrefabPainter/Examples/Prefabs/footstep_a02.prefab
+  artifactKey: Guid(01f4555e876dc457fb72a6fddd3dea58) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/Examples/Prefabs/footstep_a02.prefab using Guid(01f4555e876dc457fb72a6fddd3dea58) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78fd9e97df1dba7586dee12da993fae6') in 0.017053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SC Post Effects/Runtime/RadialBlur/Resources/RadialBlurShader.shader
+  artifactKey: Guid(32e77bda2f6f60b4da616e83def8e5cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/RadialBlur/Resources/RadialBlurShader.shader using Guid(32e77bda2f6f60b4da616e83def8e5cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa3ece0157a16b1814cfc0d62ac74497') in 0.008504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_10B.prefab
+  artifactKey: Guid(45c4ac827d32841b9969781ec50a1b5a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_10B.prefab using Guid(45c4ac827d32841b9969781ec50a1b5a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f450bfa1fe4d8ad42d8c22c7f1b75df') in 0.015583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Pack - Environment Lite/Models/Trees/Tree_2_4.fbm/Albedo.png
+  artifactKey: Guid(42324d1b2d5972741b95d4bc0dae9f06) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Low Poly Pack - Environment Lite/Models/Trees/Tree_2_4.fbm/Albedo.png using Guid(42324d1b2d5972741b95d4bc0dae9f06) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85d3f393274591f3cd175146f6c1e4ea') in 0.011349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/nTools/PrefabPainter/Examples/Prefabs/stone2.prefab
+  artifactKey: Guid(84a4a2a0b8dfe40e289fd2d4812d4019) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/Examples/Prefabs/stone2.prefab using Guid(84a4a2a0b8dfe40e289fd2d4812d4019) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18b65eff8272a1e77f04249982da917e') in 0.015607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_9A.prefab
+  artifactKey: Guid(b3c68a2d9f2774ef6a4a14f00bfd3cbc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_9A.prefab using Guid(b3c68a2d9f2774ef6a4a14f00bfd3cbc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bff131e8a45fe43dc65db83702d4162') in 0.014537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_6A.prefab
+  artifactKey: Guid(29dd1fdf56447464180e290da95f4425) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_6A.prefab using Guid(29dd1fdf56447464180e290da95f4425) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b273913e92d998f7580a196d5d7b3993') in 0.018024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Prefabs/Oaks for the Terrain Engine/PF_Oak_tall_bare Terrain.prefab
+  artifactKey: Guid(f47d87bc97eea4bd7aa084bcc1805751) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Prefabs/Oaks for the Terrain Engine/PF_Oak_tall_bare Terrain.prefab using Guid(f47d87bc97eea4bd7aa084bcc1805751) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f1ee38b3806446b418d8fa4f4fdde4c') in 0.042885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_12A.prefab
+  artifactKey: Guid(6f4ebaa65aaf5471ea563b0b556e6ac4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Cars/Monster Trucks/Monster_Truck_12A.prefab using Guid(6f4ebaa65aaf5471ea563b0b556e6ac4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f86ac0a2a8a845e0584f4f790a9c3ef') in 0.012421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89fa4b12b6dea593de0f379e4c12b8ca') in 0.008516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/nTools/PrefabPainter/Scripts/Editor/PrafabPainterGUI.cs
+  artifactKey: Guid(44f1c240811384bcdbe89eaa1a916b95) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/Scripts/Editor/PrafabPainterGUI.cs using Guid(44f1c240811384bcdbe89eaa1a916b95) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc0192e955f21dbb665cb9525366cb46') in 0.010262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/EVP5/Vehicles/SportCoupe/Materials/sportcoupe-trucktex.mat
+  artifactKey: Guid(9251e20ab7ba62c4ebf2437bc9eb9de6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Vehicles/SportCoupe/Materials/sportcoupe-trucktex.mat using Guid(9251e20ab7ba62c4ebf2437bc9eb9de6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e3d7ded64f688903d371c95dc2a756e') in 0.008294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak tall bare/Oak tall bare LOD0.asset
+  artifactKey: Guid(9ff51927e0c5940a99a1493beeb2c78f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak tall bare/Oak tall bare LOD0.asset using Guid(9ff51927e0c5940a99a1493beeb2c78f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e84cc37ce1c395dd969e99e389e81b8') in 0.008488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak TreeCreatorMaterials/oakbranch_simple HIGHRES.fbx
+  artifactKey: Guid(17b3488edaf344ac59da941c61bc0b0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak TreeCreatorMaterials/oakbranch_simple HIGHRES.fbx using Guid(17b3488edaf344ac59da941c61bc0b0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c11df454b81dd5562c0add2b37525681') in 0.010428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5560077473119aeef4a8e2abdb32538') in 0.010295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SC Post Effects/Runtime/Danger/Resources/DangerShader.shader
+  artifactKey: Guid(4a44515180ad0c3479c8533742eddb1a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/Danger/Resources/DangerShader.shader using Guid(4a44515180ad0c3479c8533742eddb1a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60e6a3d0c638f73d4d2ffab2a04a1e33') in 0.010443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/EVP5/World/Pixelactive City/Materials/pixelactive_city_fbx-lambert342.mat
+  artifactKey: Guid(d37bf3e0b4ae4480bb52ff450ca55787) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/World/Pixelactive City/Materials/pixelactive_city_fbx-lambert342.mat using Guid(d37bf3e0b4ae4480bb52ff450ca55787) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '328fbafb37f128fbaca494ee605d197e') in 0.009904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak TreeCreatorMaterials/oakbranch_test HIGHRES.fbx
+  artifactKey: Guid(37bfe287e620049299fb6273876ff567) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak TreeCreatorMaterials/oakbranch_test HIGHRES.fbx using Guid(37bfe287e620049299fb6273876ff567) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56b2aef9ab83b3deb7c8705ccb21ed8b') in 0.009789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/nTools/PrefabPainter/Examples/Scenes/ExampleScene.unity
+  artifactKey: Guid(d4dfbbc076c04427ebff3afb4acd1dce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/Examples/Scenes/ExampleScene.unity using Guid(d4dfbbc076c04427ebff3afb4acd1dce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd61b9460ac2b8b04ad1d5b62f3d2da3') in 0.010258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6133a72e0bf8b7bd2f607bc14ce85c21') in 0.011785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SC Post Effects/Runtime/CloudShadows/Resources/CloudShadowsShader.shader
+  artifactKey: Guid(3ad42129a2aee2946829a1541034c0aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/CloudShadows/Resources/CloudShadowsShader.shader using Guid(3ad42129a2aee2946829a1541034c0aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53922784d4bf775c9f703bc328ae1370') in 0.010976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/CTI Runtime Components/Shaders/CTI_LOD_Bark_301.shader
+  artifactKey: Guid(6934a0dff195b47e5913f17edb3770ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/CTI Runtime Components/Shaders/CTI_LOD_Bark_301.shader using Guid(6934a0dff195b47e5913f17edb3770ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2654fd1e8aec9fe5e0d3dcfe6ae1edfd') in 0.016408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Prefabs/Oaks for the Terrain Engine/PF_Oak_wide Terrain.prefab
+  artifactKey: Guid(7d2d0a8e86e894e69be8a99a1c0d37d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Prefabs/Oaks for the Terrain Engine/PF_Oak_wide Terrain.prefab using Guid(7d2d0a8e86e894e69be8a99a1c0d37d0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25087af16da7af59f9603a59b4aa7490') in 0.034847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/EVP5/Vehicles/SportCoupe/Materials/sportcoupe-glass.mat
+  artifactKey: Guid(66b451af113fca647b2f25dc67fc40b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Vehicles/SportCoupe/Materials/sportcoupe-glass.mat using Guid(66b451af113fca647b2f25dc67fc40b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8c46b98d88728a2ba8b27891a764ed5') in 0.012582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/CTI Runtime Components/Scripts/CTI_Utils.cs
+  artifactKey: Guid(a6013210bd40b4cde9944fed4d9f8082) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/CTI Runtime Components/Scripts/CTI_Utils.cs using Guid(a6013210bd40b4cde9944fed4d9f8082) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb52257227429f387d457c8c37c34165') in 0.008060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/nTools/PrefabPainter/Examples/Prefabs/decal2.prefab
+  artifactKey: Guid(fccdaf2af7593429990a3f305d8fefa2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/Examples/Prefabs/decal2.prefab using Guid(fccdaf2af7593429990a3f305d8fefa2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35dc347afa79b292c8591de09853b339') in 0.010195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e7d8420852ce74626eadecc309c7def') in 0.011100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17096385cd4d810ae22f39cfce23dccb') in 0.009015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
+  artifactKey: Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset using Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dda415fdca9ef497808a3e1e0f0a1e93') in 0.008719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Demos/Additional Content/Camera Animation.controller
+  artifactKey: Guid(4d508302e0d224294b6024d28c0c2f25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Demos/Additional Content/Camera Animation.controller using Guid(4d508302e0d224294b6024d28c0c2f25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55488dbc6d23893ab4bb63f8e78fd647') in 0.011482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/EVP5/Vehicles/SportCoupe/Materials/sportcoupe-trucktex-brakes-on.mat
+  artifactKey: Guid(cf2165b8c0c410449aa0bc0d325c65eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/Vehicles/SportCoupe/Materials/sportcoupe-trucktex-brakes-on.mat using Guid(cf2165b8c0c410449aa0bc0d325c65eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4742717b1d9659332860f342987d5d6') in 0.009845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Tree Demoscene/whiteSky/whiteSky.mat
+  artifactKey: Guid(55403c96df7e547de9797946209ca292) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Tree Demoscene/whiteSky/whiteSky.mat using Guid(55403c96df7e547de9797946209ca292) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74fe206bd04b27a71755444c1e2fc5a8') in 0.010386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/SprinklerPipe_02a_snaps019.prefab
+  artifactKey: Guid(28bd85c015238204eac6a04bb1ddc00f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/SprinklerPipe_02a_snaps019.prefab using Guid(28bd85c015238204eac6a04bb1ddc00f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b227a75bb74ce09ea7681d8932221e7e') in 0.022700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/FenceBarrier_01a_snaps019.asset
+  artifactKey: Guid(50ac74b16fd77a24588f9036e74357f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/FenceBarrier_01a_snaps019.asset using Guid(50ac74b16fd77a24588f9036e74357f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2606f07cd2d1a05bcb5c675583fb5f1e') in 0.008245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/PlasticPipe_09a_snaps019.prefab
+  artifactKey: Guid(3d87beabdf9e45c4ebc06866ebea552a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/PlasticPipe_09a_snaps019.prefab using Guid(3d87beabdf9e45c4ebc06866ebea552a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48c6d5cf5de02074653c23053fad9124') in 0.018145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/PlasticPipe_07a_snaps019.prefab
+  artifactKey: Guid(c4a1fd9ab66bef545af096f0e2cbcb3d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/PlasticPipe_07a_snaps019.prefab using Guid(c4a1fd9ab66bef545af096f0e2cbcb3d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '820dc4557f3dc07a3d0b80bbeebd8809') in 0.017691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/CashierMachine_01a_snaps019.asset
+  artifactKey: Guid(b35ed2438e261214faa6553f5a37be4f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/CashierMachine_01a_snaps019.asset using Guid(b35ed2438e261214faa6553f5a37be4f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f8e56b5067644201c4e11fad6e36943') in 0.010489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Bollard_01a_snaps019.asset
+  artifactKey: Guid(eb6e0df6bebc27d45a91a6b1d8bebf3d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Bollard_01a_snaps019.asset using Guid(eb6e0df6bebc27d45a91a6b1d8bebf3d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29f63c99fc1ba75079f7de57560d185b') in 0.007480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak medium/Billboard/Oak medium BillboardMaterial.mat
+  artifactKey: Guid(15f1e22dd8a4b49e7b92201f8209f774) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak medium/Billboard/Oak medium BillboardMaterial.mat using Guid(15f1e22dd8a4b49e7b92201f8209f774) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0277a921f1344e871b94230e796a8328') in 0.012077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak wide/Billboard/billboard_atlas NOVFACE [Normal] [Trans] [Smoothness].png
+  artifactKey: Guid(42d52cd75811f480a86fefd3695edd39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak wide/Billboard/billboard_atlas NOVFACE [Normal] [Trans] [Smoothness].png using Guid(42d52cd75811f480a86fefd3695edd39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa288ccbf78658558a4c283f7bfc08a5') in 0.016182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Demos/Additional Content/Lighting Demo/M_Oak_Leaves accurate VFACE.mat
+  artifactKey: Guid(fa5dff128cefd4f93a5c7394fdacb0be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Demos/Additional Content/Lighting Demo/M_Oak_Leaves accurate VFACE.mat using Guid(fa5dff128cefd4f93a5c7394fdacb0be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3acbc44ed804bcea7a839feb9f736424') in 0.012986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/ParkingBarrier_03a_snaps019.asset
+  artifactKey: Guid(7a0420a13ee168c49853a5ec48959c07) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/ParkingBarrier_03a_snaps019.asset using Guid(7a0420a13ee168c49853a5ec48959c07) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a577d2252d35f945ee0aaf5249b3bf2') in 0.009988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_13a_snaps019.asset
+  artifactKey: Guid(87c7a5ea183796949807658b655681f3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_13a_snaps019.asset using Guid(87c7a5ea183796949807658b655681f3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7a647724e68d5d13ae2fd14b99bb067') in 0.006178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/OfficeChair_01a_snaps019.asset
+  artifactKey: Guid(b04d3c8aa241e86479c7a769339d8cda) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/OfficeChair_01a_snaps019.asset using Guid(b04d3c8aa241e86479c7a769339d8cda) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '894013c248427e4cbe301be40023a84b') in 0.008169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_12a_snaps019.asset
+  artifactKey: Guid(8ac59366de54fec4b850071d65bb656a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/PlasticPipe_12a_snaps019.asset using Guid(8ac59366de54fec4b850071d65bb656a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1566dad6c548a096f3caee0a83d88ab5') in 0.007899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/CTI Runtime Components/Shaders/Includes/CTI_BillboardVertex_301.cginc
+  artifactKey: Guid(112655983bca9418aaad6c61cf41d8ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/CTI Runtime Components/Shaders/Includes/CTI_BillboardVertex_301.cginc using Guid(112655983bca9418aaad6c61cf41d8ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18576d06e590ba097ee983c78c6cd8bc') in 0.007600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/SprinklerPipe_09b_snaps019.prefab
+  artifactKey: Guid(7806e5c43ea425d4f83b2b8292306356) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/SprinklerPipe_09b_snaps019.prefab using Guid(7806e5c43ea425d4f83b2b8292306356) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd196975aea3778a690179c08815b0648') in 0.015278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/FluorescentLight_01a_snaps019.prefab
+  artifactKey: Guid(79adc6c97fec3534fb77959ca833b16b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/FluorescentLight_01a_snaps019.prefab using Guid(79adc6c97fec3534fb77959ca833b16b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4d7dbd2e9af87523afa45f5900f3284') in 0.013750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_2A.prefab
+  artifactKey: Guid(6297f5873427b4a6186eeed06fb4ec91) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Cars/Rally/Rally_Car_2A.prefab using Guid(6297f5873427b4a6186eeed06fb4ec91) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c7708f05420b038b0e6da6d3213e7e5') in 0.015536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/ParkingBarrier_03a_snaps019.prefab
+  artifactKey: Guid(f0c9f3c26ac35e4499c91a3551bb4213) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/ParkingBarrier_03a_snaps019.prefab using Guid(f0c9f3c26ac35e4499c91a3551bb4213) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6d75c8594804ccfc647c81da5dad07a') in 0.011473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2cefb279ba138d9683351b3cd8683cf') in 0.008773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/CTI Runtime Components/Default Components/Resources/CTI_default_albedo_Texture2DArray.asset
+  artifactKey: Guid(e6d607e9c6a0a44fb974c8a3766673da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/CTI Runtime Components/Default Components/Resources/CTI_default_albedo_Texture2DArray.asset using Guid(e6d607e9c6a0a44fb974c8a3766673da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '726335c2a39a0f2d492f0b71c49a4780') in 0.010834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Ventilation_07a_snaps019.prefab
+  artifactKey: Guid(6586fdd65cc01354f86bab73cc544cab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Ventilation_07a_snaps019.prefab using Guid(6586fdd65cc01354f86bab73cc544cab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6eaac335dbfb5c95157a0e53b925f6d9') in 0.017166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/SprinklerPipe_08a_snaps019.prefab
+  artifactKey: Guid(c5a62d55134d3864ebf65133e7164d30) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/SprinklerPipe_08a_snaps019.prefab using Guid(c5a62d55134d3864ebf65133e7164d30) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50f84c6de56a17c02c19f99f77ff94b8') in 0.015295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak big/Billboard/billboard_atlas NOVFACE [Normal] [Trans] [Smoothness].png
+  artifactKey: Guid(20a741af723924b42b3d6ccddf2ecf3d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak big/Billboard/billboard_atlas NOVFACE [Normal] [Trans] [Smoothness].png using Guid(20a741af723924b42b3d6ccddf2ecf3d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99e4401c61b840f1fb981663fe7b7a2c') in 0.016236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak TreeCreatorMaterials/Materials/oak_bark thinn.mat
+  artifactKey: Guid(696d6fe0e67af4a368fb516b8dc4c4f9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees/oak TreeCreatorMaterials/Materials/oak_bark thinn.mat using Guid(696d6fe0e67af4a368fb516b8dc4c4f9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbcc9efbb988f6e0ff7b173439a74fca') in 0.009485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak big/Billboard/Oak big_BillboardAsset.asset
+  artifactKey: Guid(2a9c1e2e9934a49cf8f88541252f277e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak big/Billboard/Oak big_BillboardAsset.asset using Guid(2a9c1e2e9934a49cf8f88541252f277e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4a252361bf9888115e2d79ce596b97e') in 0.009113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees 09 2011/N_oak TreeCreator Materials/Materials/oak_branch_big03.mat
+  artifactKey: Guid(6493b9323c01e4150bf8993d89e94e70) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Trees 09 2011/N_oak TreeCreator Materials/Materials/oak_branch_big03.mat using Guid(6493b9323c01e4150bf8993d89e94e70) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01f8f568a4f92daffe67939aa4826aa5') in 0.012943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_05a_snaps019.asset
+  artifactKey: Guid(c897130d86a126c4582322e52c4b0125) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_05a_snaps019.asset using Guid(c897130d86a126c4582322e52c4b0125) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f13ba1ad8ab2e7a8aeb43c6ba3760ecc') in 0.006999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_ElevatedGround_04a_Collider.asset
+  artifactKey: Guid(7a322f4b257f6b9478b8c73a5304f3e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_ElevatedGround_04a_Collider.asset using Guid(7a322f4b257f6b9478b8c73a5304f3e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d8962a8f4743a190090bb6e6d874ab2') in 0.009867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Road_02a_snaps019.prefab
+  artifactKey: Guid(4d65c742d8b1f7844b438194f70cebbc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Road_02a_snaps019.prefab using Guid(4d65c742d8b1f7844b438194f70cebbc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fb47bf33171aafd684e3e37fbd33ce1') in 0.017033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Floor_03a_snaps019.asset
+  artifactKey: Guid(f37be3e6fd672404a8d66f1f8518005a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Floor_03a_snaps019.asset using Guid(f37be3e6fd672404a8d66f1f8518005a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5280a820454e824b3b7f82d4a2485e10') in 0.010270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/ElectricRoomDoor_02a_snaps019.asset
+  artifactKey: Guid(7feec2f2bb8b5374b84d78d562b2ac12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/ElectricRoomDoor_02a_snaps019.asset using Guid(7feec2f2bb8b5374b84d78d562b2ac12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfa3aa18e5d04fb1ad2b015e5c9c1569') in 0.008088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Road_05a_snaps019.prefab
+  artifactKey: Guid(2f20f1ad604148d4fb37ad0759e4909b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Road_05a_snaps019.prefab using Guid(2f20f1ad604148d4fb37ad0759e4909b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f8c753a7b0f22be2d8ed560720a6d37') in 0.018147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/CP_WallDoor_01a_snaps019.prefab
+  artifactKey: Guid(e16797133857470458976f35b9dc626d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/CP_WallDoor_01a_snaps019.prefab using Guid(e16797133857470458976f35b9dc626d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5e0a0bcdb290dd54568a4d3a19617f2') in 0.021404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePillar_04a_snaps019.asset
+  artifactKey: Guid(568dff36f18ee5841bf04f4e2c0093e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePillar_04a_snaps019.asset using Guid(568dff36f18ee5841bf04f4e2c0093e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bc82e6f70edaaea4a3ce02dd2362cb4') in 0.011417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak tall/Billboard/billboard_atlas [Normal] [Trans] [Smoothness].png
+  artifactKey: Guid(9456d0d8c0b254780a58913eddf99e88) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak tall/Billboard/billboard_atlas [Normal] [Trans] [Smoothness].png using Guid(9456d0d8c0b254780a58913eddf99e88) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3e267d519e53c88bda4762be87fea05') in 0.014503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_8B.prefab
+  artifactKey: Guid(3b981ec3600e94497a1d52a7d106a8c0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Prefabs/Cars/Racing/Race_Car_8B.prefab using Guid(3b981ec3600e94497a1d52a7d106a8c0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9078a2debcde3e8c5bc4836ff8d9839') in 0.017231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/FluorescentLight_02a_snaps019.asset
+  artifactKey: Guid(112e7ac31c090d241a7ba23c19e5f942) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/FluorescentLight_02a_snaps019.asset using Guid(112e7ac31c090d241a7ba23c19e5f942) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5bba73b0baabf106bf5808a2cba589b') in 0.008459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/SprinklerPipe_05b_snaps019.prefab
+  artifactKey: Guid(20f27468356717c409eddba43f040c7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/SprinklerPipe_05b_snaps019.prefab using Guid(20f27468356717c409eddba43f040c7a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5ff3f888d972d0e9640758329c2c746') in 0.014516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePillar_01a_Collider.asset
+  artifactKey: Guid(4998bcec0041bb1418e88d323214524a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePillar_01a_Collider.asset using Guid(4998bcec0041bb1418e88d323214524a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b251a6ee0e6d27b11f48a9152c3b574a') in 0.008322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePlatform_01a_snaps019.asset
+  artifactKey: Guid(3db3a7a717ce95a4cacb7c6004504784) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePlatform_01a_snaps019.asset using Guid(3db3a7a717ce95a4cacb7c6004504784) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83e81e1273425b150abfd50b41043bf3') in 0.007816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/CTI Runtime Components/Shaders/Includes/CTI_Builtin4xTreeLibraryTumbling_301.cginc
+  artifactKey: Guid(5d3ded904854c45a884c86212264252a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/CTI Runtime Components/Shaders/Includes/CTI_Builtin4xTreeLibraryTumbling_301.cginc using Guid(5d3ded904854c45a884c86212264252a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff9bfe442c182bab7108f0df555c64a6') in 0.007777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Compressor_01a_snaps019.prefab
+  artifactKey: Guid(a2bbf34618ed2e8419e4c4b9c336688e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Compressor_01a_snaps019.prefab using Guid(a2bbf34618ed2e8419e4c4b9c336688e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f4c34aea3de72a9fae0dc8ee36a7701') in 0.018791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/FireExtinguisher_01a_snaps019.prefab
+  artifactKey: Guid(de684e2d0de3c944c85040dc15be3ad0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/FireExtinguisher_01a_snaps019.prefab using Guid(de684e2d0de3c944c85040dc15be3ad0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d8511e4bc175a61a15a382e0513444d') in 0.017556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Floor_02a_snaps019.asset
+  artifactKey: Guid(b2c96baa70891ec409995507ef105c65) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Floor_02a_snaps019.asset using Guid(b2c96baa70891ec409995507ef105c65) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ccd811db86b835c4284da884e62e114') in 0.008141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/nTools/PrefabPainter/Examples/Prefabs/footstep_a01.prefab
+  artifactKey: Guid(62b4cd3ac819640e49ea9de71d47400c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/Examples/Prefabs/footstep_a01.prefab using Guid(62b4cd3ac819640e49ea9de71d47400c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ff0e875767ac6a23ee2b597b4a25a63') in 0.012606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/nTools/PrefabPainter/Examples/Materials/Footsteps_red.mat
+  artifactKey: Guid(941ee9c334b1a4efebb5c61885932fb3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/nTools/PrefabPainter/Examples/Materials/Footsteps_red.mat using Guid(941ee9c334b1a4efebb5c61885932fb3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89fb512dd396d4bfa6c4893aa45125f5') in 0.014319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EVP5/World/Pixelactive City/tex/downtown001_atlas_4_0.tif
+  artifactKey: Guid(4b9c53188820e401aba2422fca403cce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/World/Pixelactive City/tex/downtown001_atlas_4_0.tif using Guid(4b9c53188820e401aba2422fca403cce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec124e49dfbc4e842cb40bbbacce87a2') in 0.013977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/PlasticPipe_02a_snaps019.prefab
+  artifactKey: Guid(b932cad3ee1df4749b9e929766a68ff2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/PlasticPipe_02a_snaps019.prefab using Guid(b932cad3ee1df4749b9e929766a68ff2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42882cb3baa39578a63ecd59ece11c9d') in 0.015179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/EVP5/World/Pixelactive City/tex/concrete.tif
+  artifactKey: Guid(46fdda1acf2f54c828bc221dcf274308) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/World/Pixelactive City/tex/concrete.tif using Guid(46fdda1acf2f54c828bc221dcf274308) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '721eb2d3f5967aa38f466edc235e8225') in 0.010276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_5B_D.mat
+  artifactKey: Guid(fdb2c157015374cb5a0cbcf8ef4fd587) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_5B_D.mat using Guid(fdb2c157015374cb5a0cbcf8ef4fd587) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a59a478b26e19905361d679261d130bf') in 0.008730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Tree Demoscene/whiteSky/white.png
+  artifactKey: Guid(a6373cd656ee4400c881701bf682d685) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 1.0 (deprecated)/Oak Tree Demoscene/whiteSky/white.png using Guid(a6373cd656ee4400c881701bf682d685) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '458441a51c110d18f8505214de1402a7') in 0.010833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Racing/Models/Materials/Race_Car_6A_D.mat
+  artifactKey: Guid(872bbb25050614002b91f6831fba9450) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Materials/Race_Car_6A_D.mat using Guid(872bbb25050614002b91f6831fba9450) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '935fda0c07d57ac9c6505f4d2f107782') in 0.008293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/CashierMachine_01a_snaps019.prefab
+  artifactKey: Guid(2b128d89991c2a64b92bd0682314e6c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/CashierMachine_01a_snaps019.prefab using Guid(2b128d89991c2a64b92bd0682314e6c8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b75a3135f80ce61681c797826e266bd') in 0.021317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/LiftFrame_02a_Collider.asset
+  artifactKey: Guid(9a7e836fa4d108c4db3fd16db261b682) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/LiftFrame_02a_Collider.asset using Guid(9a7e836fa4d108c4db3fd16db261b682) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60de30c8330ec32f3b6d88138ba0b51d') in 0.008861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SC Post Effects/_Samples/TransitionGradients/CircularTransition.png
+  artifactKey: Guid(9f40e63ea5b31184995989ec93c3fe04) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/_Samples/TransitionGradients/CircularTransition.png using Guid(9f40e63ea5b31184995989ec93c3fe04) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3e3aa9b6671110d82592bfd5aa028a2') in 0.017621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Pillar_02a_snaps019.asset
+  artifactKey: Guid(66db983bb0fc47e4793acb0ad4ade8e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Pillar_02a_snaps019.asset using Guid(66db983bb0fc47e4793acb0ad4ade8e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca09269c059de690a090b1452d765c60') in 0.010911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgeStairs_01a_Collider.asset
+  artifactKey: Guid(de36150231622754ba884f100e6caadd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgeStairs_01a_Collider.asset using Guid(de36150231622754ba884f100e6caadd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67c87b7a87ae8d954bc6959d682b06b4') in 0.010023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/CP_WallDoorPiece_01a_snaps019.prefab
+  artifactKey: Guid(2f18c364be69cab4f82f67f564b4ffa0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/CP_WallDoorPiece_01a_snaps019.prefab using Guid(2f18c364be69cab4f82f67f564b4ffa0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38c05be69f3efc1c2bc7d3ba9f211785') in 0.015357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/LiftPiece_01a_snaps019.prefab
+  artifactKey: Guid(ad79a0680a44e7640a93ccbe95c85e3c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/LiftPiece_01a_snaps019.prefab using Guid(ad79a0680a44e7640a93ccbe95c85e3c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4796985f8137d407dc70b8ceb4f1015') in 0.016714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/LiftFrame_01a_Collider.asset
+  artifactKey: Guid(5cf51515ae192fc4d87aa3a833e9449c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/LiftFrame_01a_Collider.asset using Guid(5cf51515ae192fc4d87aa3a833e9449c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69d25bc00d808402b6219bfb08ea296d') in 0.008960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePlatform_01a_Collider.asset
+  artifactKey: Guid(ac7b6f88e56273d4980216dfae8cd4b4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/Meshes/BridgePlatform_01a_Collider.asset using Guid(ac7b6f88e56273d4980216dfae8cd4b4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '670e4fb8e4ad9995cbb4f5e67897537e') in 0.008975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/LiftFrame_03a_Collider.asset
+  artifactKey: Guid(d919a4d1116f3b243a1a6bef5754d7ad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/LiftFrame_03a_Collider.asset using Guid(d919a4d1116f3b243a1a6bef5754d7ad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '538db34ea458cb2332618fa8f5cc3582') in 0.007441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/CP_GlassWall_03a_snaps019.prefab
+  artifactKey: Guid(c307d4fb321813a4a869c4174d85e1a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/CP_GlassWall_03a_snaps019.prefab using Guid(c307d4fb321813a4a869c4174d85e1a4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a579cf4fb8d3ea20d13a58f4a7136a72') in 0.012827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/CP_FireEscapeWall_01a_snaps019.prefab
+  artifactKey: Guid(477265bc4460e6e4798ac9c916855264) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/CP_FireEscapeWall_01a_snaps019.prefab using Guid(477265bc4460e6e4798ac9c916855264) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1033e11bc48c5c742d73c128ac2e2707') in 0.011520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_ElevatedGround_05a_Collider.asset
+  artifactKey: Guid(53c3da9ad890349459279c02e8e13c23) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_ElevatedGround_05a_Collider.asset using Guid(53c3da9ad890349459279c02e8e13c23) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa9337318abded3f9a0377330599747b') in 0.008111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/SwitchBox_04a_snaps019.prefab
+  artifactKey: Guid(9e0b9e95c34e2604d99a80bd63cca279) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/SwitchBox_04a_snaps019.prefab using Guid(9e0b9e95c34e2604d99a80bd63cca279) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '156423bb619f607c958e096d4ed79e6d') in 0.018412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_07a_snaps019.asset
+  artifactKey: Guid(b1946184f21b62c48a34d6a5e823e1d5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/Ventilation_07a_snaps019.asset using Guid(b1946184f21b62c48a34d6a5e823e1d5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0dd63a2380992bd266972282ba9931c8') in 0.006921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/Road_05a_Collider.asset
+  artifactKey: Guid(32e4eeb7f34b0694283b48601c66741b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/Road_05a_Collider.asset using Guid(32e4eeb7f34b0694283b48601c66741b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9558e66993aa1b1258d91117bdaf91be') in 0.006550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/BridgePillar_03a_snaps019.prefab
+  artifactKey: Guid(c1c65293e4dd69340afe8c1fdbc49d9c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/BridgePillar_03a_snaps019.prefab using Guid(c1c65293e4dd69340afe8c1fdbc49d9c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '646bd6eada95529404685e42d5fa2b93') in 0.012262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_EmergencyStair_01a_snaps019.asset
+  artifactKey: Guid(55fe026530cda9a4387c9d1000a77452) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_EmergencyStair_01a_snaps019.asset using Guid(55fe026530cda9a4387c9d1000a77452) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '020f7fd8b4f08b821080da6de573cabf') in 0.008464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SwitchBox_02a_snaps019.asset
+  artifactKey: Guid(7d888b22caaf8ac4ea8936733994466b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Props/Meshes/SwitchBox_02a_snaps019.asset using Guid(7d888b22caaf8ac4ea8936733994466b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00a3e2544777b3a6cee89928e1fd1ee1') in 0.008466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak wide/Billboard/Oak wide [Albedo].png
+  artifactKey: Guid(f8c91dcf9dc5c4215bcb59f157e439db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak wide/Billboard/Oak wide [Albedo].png using Guid(f8c91dcf9dc5c4215bcb59f157e439db) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a3668a39558c4c8cea3936879724c72') in 0.015432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/EVP5/World/Pixelactive City/Materials/pixelactive_city_fbx-lambert12.mat
+  artifactKey: Guid(bc9ba4eda63de43e18c53be36908c9e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/World/Pixelactive City/Materials/pixelactive_city_fbx-lambert12.mat using Guid(bc9ba4eda63de43e18c53be36908c9e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87da383401f5e624b73c19a58a35f96c') in 0.008538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SC Post Effects/Runtime/SpeedLines/Resources/SpeedLinesShader.shader
+  artifactKey: Guid(e8d207414e4ef1943b981c4f87ef0e97) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/Runtime/SpeedLines/Resources/SpeedLinesShader.shader using Guid(e8d207414e4ef1943b981c4f87ef0e97) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e675c8e5099e6414fcb0b5ab5812412b') in 0.018019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak tall bare/Billboard/Oak tall bare_BillboardMaterial.mat
+  artifactKey: Guid(106fd99c3c30342ac95555099b00f3e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Oak Trees Package/Oak Trees Version 2.0/Sources/Oak tall bare/Billboard/Oak tall bare_BillboardMaterial.mat using Guid(106fd99c3c30342ac95555099b00f3e5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8ed847be67a38ca3fce6e6351f27953') in 0.016223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/EVP5/World/Pixelactive City/Materials/pixelactive_city_fbx-lambert40.mat
+  artifactKey: Guid(4a412f7cca9e94589bcab0607ae58825) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/World/Pixelactive City/Materials/pixelactive_city_fbx-lambert40.mat using Guid(4a412f7cca9e94589bcab0607ae58825) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9206b4b7e4a19539c123cc504f88bdb') in 0.008575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+  artifactKey: Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity using Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed09323ec1b0a7bac2044fd058abf6de') in 0.009698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Wall_02a_snaps019.asset
+  artifactKey: Guid(e6762fe7e453af542aa9228a0ece39d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/Meshes/CP_Wall_02a_snaps019.asset using Guid(e6762fe7e453af542aa9228a0ece39d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2350886553914b249a9823165d41c8a') in 0.007331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SC Post Effects/_Samples/Danger/SCPE_BloodSplatter3.png
+  artifactKey: Guid(33c97c5f43685b34e92f4fdf6f683be1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SC Post Effects/_Samples/Danger/SCPE_BloodSplatter3.png using Guid(33c97c5f43685b34e92f4fdf6f683be1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73d5ce100111eb74e6acceca582c4852') in 0.039678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Teal_snaps019.mat
+  artifactKey: Guid(fddc747f3da57e548ada5be1f14d1b75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Materials/Teal_snaps019.mat using Guid(fddc747f3da57e548ada5be1f14d1b75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef30deb6775ba2c381a388f2be282a05') in 0.039209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/EVP5/World/Pixelactive City/tex/surface_concrete_1_diffuse.tif
+  artifactKey: Guid(6792823fa32564e07ac44b0a85a1d7eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/EVP5/World/Pixelactive City/tex/surface_concrete_1_diffuse.tif using Guid(6792823fa32564e07ac44b0a85a1d7eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e7de269a5a6cf6fbe437de443a8dddd') in 0.009660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4872ae5280d595287622bd4f20572055') in 0.015286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Racing/Models/Materials/Rally_Car_2C_D.mat
+  artifactKey: Guid(eb4c693f7cd212448a14f9d634af7542) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Toon Racing/Models/Materials/Rally_Car_2C_D.mat using Guid(eb4c693f7cd212448a14f9d634af7542) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db77d2d4e9f2d1e235bdb000b9a71e12') in 0.008084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/CP_Floor_02a_snaps019.prefab
+  artifactKey: Guid(684a320d5c1fae649a3e6df7643e73be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Carpark/CP_Floor_02a_snaps019.prefab using Guid(684a320d5c1fae649a3e6df7643e73be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7b80d6d0acd33b11af800446f689615') in 0.017161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/BridgeStairs_02a_snaps019.prefab
+  artifactKey: Guid(34b010786daabbe4d83120af36e3c742) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Carpark/Prefabs/Structure/Bridge/BridgeStairs_02a_snaps019.prefab using Guid(34b010786daabbe4d83120af36e3c742) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7505d922d472940c064f2a969274aaf0') in 0.013417 seconds 
+========================================================================
+Received Prepare
+Shader 'Custom/EVP Particles Alpha Blended Shadows': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.5 MB). Loaded Objects now: 4756.
+Memory consumption went from 113.6 MB to 112.1 MB.
+Total: 3.375300 ms (FindLiveObjects: 0.376000 ms CreateObjectMapping: 0.113400 ms MarkObjects: 2.469700 ms  DeleteObjects: 0.415400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
